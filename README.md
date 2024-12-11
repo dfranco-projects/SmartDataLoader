@@ -2,14 +2,20 @@
 
 🚀 __SmartDataLoader__ is your intelligent assistant for loading datasets seamlessly! Designed for data practitioners, it simplifies handling messy imports and automates importing processes. From diagnosing common issues to providing practical solutions, SmartDataLoader ensures you spend less time loading data and more time analyzing.
 
+🚀 __SmartDataLoader__ is your intelligent, cutting-edge assistant for effortlessly loading datasets and solving import issues! Built for data practitioners, it goes beyond simple automation by __integrating a powerful LLM-based API RAG (Retriever-Augmented Generation) to help you troubleshoot and resolve data import errors in real time__. Whether you're dealing with formatting challenges or missing metadata, SmartDataLoader will guide you through the process and offer practical solutions, reducing manual effort and speeding up imports.
+
+__Quick imports, intelligent fixes, and interactive support—SmartDataLoader makes dataset loading faster and smarter than ever.__
+
 ---
 
 ## Features
-- __Dynamic Metadata Management__: Automatically generate and update metadata for your files.
-- __Pandas Integration__: Supports all major pandas file readers (`read_csv`, `read_excel`, etc.).
-- __Import Issue Diagnostics__: Detect and suggest fixes for common problems like incorrect delimiters or missing headers.
-- __Documentation on Demand__: Get pandas function argument details based on file types.
-- __User-Friendly API__: Designed for ease of use, even with large or complex datasets.
+
+__Fast Imports__: SmartDataLoader optimizes your data loading process, cutting down on wait times and enabling you to work with your data faster.
+__LLM-Powered Assistant__: Leverage an advanced LLM API to diagnose import issues and provide step-by-step solutions, answering your questions and suggesting fixes in real time.
+__Manual Metadata Updates__: While SmartDataLoader automates much of the metadata management, it also allows you to manually update metadata, ensuring accuracy when automated fixes aren't sufficient.
+- __Dynamic Metadata Management__:Automatically generate metadata for your files, streamlining imports.
+- __Pandas Integration__: Fully compatible with pandas functions, supporting all major pandas file readers (`read_csv`, `read_excel`, etc.).
+- __Documentation on Demand__: nstantly retrieve detailed documentation on pandas function arguments based on your file types.
 
 ---
 

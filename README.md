@@ -22,6 +22,8 @@ __Manual Metadata Updates__: While SmartDataLoader automates much of the metadat
 ## Getting Started
 
 ### Repository Structure
+
+```bash
 SmartDataLoader/
 ├── README.md                 # Project overview and usage instructions
 ├── data_ingestor.py          # Handles metadata creation and ingestion
@@ -40,17 +42,19 @@ SmartDataLoader/
 │   ├── test_assistant.py        # Tests for assistant components
 ├── requirements.txt         # Required dependencies
 └── .gitignore               # Files and directories to ignore
-
+```
 
 ### Installation
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/SmartDataLoader.git
    cd SmartDataLoader
+   ```
 
 2. Install dependencies:
    ```bash
    pip install -r requirements.txt
+   ````
 
 ---
 

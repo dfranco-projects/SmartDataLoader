@@ -1,6 +1,6 @@
 # SmartDataLoader (WIP)
 
-🚀 __SmartDataLoader__ is your intelligent assistant for loading datasets seamlessly! Designed for data practitioners, it simplifies handling messy imports and automates metadata creation and updates. From diagnosing common issues to providing practical solutions, SmartDataLoader ensures you spend less time troubleshooting and more time analyzing.
+🚀 __SmartDataLoader__ is your intelligent assistant for loading datasets seamlessly! Designed for data practitioners, it simplifies handling messy imports and automates importing processes. From diagnosing common issues to providing practical solutions, SmartDataLoader ensures you spend less time loading data and more time analyzing.
 
 ---
 

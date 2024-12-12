@@ -45,7 +45,6 @@ SmartDataLoader/
 └── .gitignore                             # Files and directories to ignore
 ```
 
-
 ### Installation
 1. Clone the repository:
    ```bash

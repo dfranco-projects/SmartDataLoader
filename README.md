@@ -1,21 +1,48 @@
-# SmartDataLoader (WIP)
+# **DataRanger (WIP)**  
+🚀 **AI-Powered Data Loading and Preprocessing Assistant**  
 
-🚀 __SmartDataLoader__ is your intelligent, cutting-edge assistant for effortlessly loading datasets and solving import issues! Built for data practitioners, it goes beyond simple automation by __integrating a powerful LLM-based API RAG (Retriever-Augmented Generation) to help you troubleshoot and resolve data import errors in real time__. Whether you're dealing with formatting challenges or missing metadata, SmartDataLoader will guide you through the process and offer practical solutions, reducing manual effort and speeding up imports.
+**DataRanger** is your smart AI assistant for loading and preprocessing datasets, solving import issues, and handling data transformations with ease! Designed for data practitioners, it goes far beyond simple automation by **integrating a powerful LLM-based RAG (Retriever-Augmented Generation)** built from scratch. This cutting-edge system helps you troubleshoot, resolve data import errors in real time, and apply advanced preprocessing solutions to your data.  
 
-__Quick imports, intelligent fixes, and interactive support—SmartDataLoader makes dataset loading faster and smarter than ever.__
+Whether you're dealing with formatting challenges, missing metadata, or complex transformations, **DataRanger** guides you through the process with practical solutions, reducing manual effort and speeding up your workflows.  
 
-__Currently supports the file formats: `.csv`, `.xlsx`, `.parquet`, `.json`, and `.txt`.__
+**Quick imports, intelligent fixes, and interactive support**—DataRanger makes dataset preparation smarter, faster, and more efficient.  
 
 ---
 
-## Features
+## **Features**  
 
-__Fast Imports__: SmartDataLoader optimizes your data loading process, cutting down on wait times and enabling you to work with your data faster.
-__LLM-Powered Assistant__: Leverage an advanced LLM API to diagnose import issues and provide step-by-step solutions, answering your questions and suggesting fixes in real time.
-__Manual Metadata Updates__: While SmartDataLoader automates much of the metadata management, it also allows you to manually update metadata, ensuring accuracy when automated fixes aren't sufficient.
-- __Dynamic Metadata Management__:Automatically generate metadata for your files, streamlining imports.
-- __Pandas Integration__: Fully compatible with pandas functions, supporting all major pandas file readers (`read_csv`, `read_excel`, etc.).
-- __Documentation on Demand__: nstantly retrieve detailed documentation on pandas function arguments based on your file types.
+- **Fast Imports**: Optimizes your data loading process, cutting down on wait times and enabling you to work with your data faster.  
+- **LLM-Powered Assistant**: Leverage an advanced LLM API to diagnose import issues and provide step-by-step solutions, answering your questions and suggesting fixes in real time.  
+- **Manual Metadata Updates**: Automates much of the metadata management while allowing manual updates for precision when needed.  
+- **Dynamic Metadata Management**: Automatically generates metadata for your files, streamlining imports.  
+- **Pandas Integration**: Fully compatible with pandas functions, supporting all major pandas file readers (`read_csv`, `read_excel`, etc.).  
+- **Documentation on Demand**: Instantly retrieve detailed documentation on pandas function arguments based on your file types.  
+- **Advanced Preprocessing**: Handles preprocessing tasks, such as data type corrections, feature engineering, and cleaning, all guided by the LLM.  
+
+---
+
+## **Why a RAG?**  
+
+DataRanger is powered by a **Retriever-Augmented Generation (RAG)** system built from scratch that combines the power of LLMs with a custom-built retrieval module. This architecture ensures that:  
+- The assistant can fetch relevant solutions from trusted sources (e.g., documentation, user-provided metadata, or even external resources).  
+- It adapts dynamically to handle unseen errors or preprocessing challenges.  
+- It enables intelligent interactions with your scripts and datasets for personalized, actionable insights.  
+
+---
+
+## **Supported File Formats**  
+
+- `.csv`  
+- `.xlsx`  
+- `.parquet`  
+- `.json`  
+- `.txt`  
+
+---
+
+## **Get Inspired**  
+
+SmartDataPrep is more than just a tool—it's a learning resource. Explore the codebase to understand how to build a RAG system from scratch for your own projects!  
 
 ---
 

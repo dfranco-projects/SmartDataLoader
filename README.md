@@ -1,11 +1,11 @@
-# **DataRanger (WIP)**  
+# **SmartDataRanger (WIP)**  
 🚀 **AI-Powered Data Loading and Preprocessing Assistant**  
 
-**DataRanger** is your smart AI assistant for loading and preprocessing datasets, solving import issues, and handling data transformations with ease! Designed for data practitioners, it goes far beyond simple automation by **integrating a powerful LLM-based RAG (Retriever-Augmented Generation)** built from scratch. This cutting-edge system helps you troubleshoot, resolve data import errors in real time, and apply advanced preprocessing solutions to your data.  
+**SmartDataRanger** is your intelligent AI assistant for loading and preprocessing datasets, solving import issues, and handling data transformations with ease! Designed for data practitioners, it goes far beyond simple automation by **integrating a powerful LLM-based RAG (Retriever-Augmented Generation)** built from scratch. This cutting-edge system helps you troubleshoot, resolve data import errors in real time, and apply advanced preprocessing solutions to your data.  
 
-Whether you're dealing with formatting challenges, missing metadata, or complex transformations, **DataRanger** guides you through the process with practical solutions, reducing manual effort and speeding up your workflows.  
+Whether you're dealing with formatting challenges, missing metadata, or complex transformations, **SmartDataRanger** guides you through the process with practical solutions, reducing manual effort and speeding up your workflows.  
 
-**Quick imports, intelligent fixes, and interactive support**—DataRanger makes dataset preparation smarter, faster, and more efficient.  
+**Quick imports, intelligent fixes, and interactive support**—SmartDataRanger makes dataset preparation smarter, faster, and more efficient.  
 
 ---
 
@@ -23,7 +23,7 @@ Whether you're dealing with formatting challenges, missing metadata, or complex 
 
 ## **Why a RAG?**  
 
-DataRanger is powered by a **Retriever-Augmented Generation (RAG)** system built from scratch that combines the power of LLMs with a custom-built retrieval module. This architecture ensures that:  
+SmartDataRanger is powered by a **Retriever-Augmented Generation (RAG)** system built from scratch that combines the power of LLMs with a custom-built retrieval module. This architecture ensures that:  
 - The assistant can fetch relevant solutions from trusted sources (e.g., documentation, user-provided metadata, or even external resources).  
 - It adapts dynamically to handle unseen errors or preprocessing challenges.  
 - It enables intelligent interactions with your scripts and datasets for personalized, actionable insights.  

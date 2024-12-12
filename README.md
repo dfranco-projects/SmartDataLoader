@@ -37,6 +37,8 @@ SmartDataLoader/
 │   ├── import_assistant.py                # Diagnoses and suggests solutions for import issues
 ├── example_data/
 │   ├── clean_data/                        # Clean example data
+│       ├── one_file/                      # One example file
+│       ├── multiple_files/                # Multiple example files
 │   ├── raw_data/                          # Unprocessed example data
 ├── examples/
 │   ├── import_multiple_extensions.ipynb   # Example of loading multiple file types (CSV, XLSX, etc.)

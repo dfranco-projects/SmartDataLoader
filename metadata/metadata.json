@@ -1,335 +1,35 @@
 [
     {
-        "file_name": "IN_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/IN_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "RU_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/RU_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "JP_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/JP_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "FR_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/FR_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "INvideos.csv",
+        "file_name": "WA_Fn-UseC_-Telco-Customer-Churn.csv",
         "file_type": ".csv",
         "columns": [
-            "video_id",
-            "trending_date",
-            "title",
-            "channel_title",
-            "category_id",
-            "publish_time",
-            "tags",
-            "views",
-            "likes",
-            "dislikes",
-            "comment_count",
-            "thumbnail_link",
-            "comments_disabled",
-            "ratings_disabled",
-            "video_error_or_removed",
-            "description"
+            "customerID",
+            "gender",
+            "SeniorCitizen",
+            "Partner",
+            "Dependents",
+            "tenure",
+            "PhoneService",
+            "MultipleLines",
+            "InternetService",
+            "OnlineSecurity",
+            "OnlineBackup",
+            "DeviceProtection",
+            "TechSupport",
+            "StreamingTV",
+            "StreamingMovies",
+            "Contract",
+            "PaperlessBilling",
+            "PaymentMethod",
+            "MonthlyCharges",
+            "TotalCharges",
+            "Churn"
         ],
-        "row_count": 37352,
+        "row_count": 7043,
         "import_instructions": {
             "function": "pd.read_csv",
             "arguments": {
-                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/extracted_data/INvideos.csv"
-            }
-        }
-    },
-    {
-        "file_name": "GB_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/GB_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "DEvideos.csv",
-        "file_type": ".csv",
-        "columns": [
-            "video_id",
-            "trending_date",
-            "title",
-            "channel_title",
-            "category_id",
-            "publish_time",
-            "tags",
-            "views",
-            "likes",
-            "dislikes",
-            "comment_count",
-            "thumbnail_link",
-            "comments_disabled",
-            "ratings_disabled",
-            "video_error_or_removed",
-            "description"
-        ],
-        "row_count": 40840,
-        "import_instructions": {
-            "function": "pd.read_csv",
-            "arguments": {
-                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/extracted_data/DEvideos.csv"
-            }
-        }
-    },
-    {
-        "file_name": "KR_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/KR_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "CAvideos.csv",
-        "file_type": ".csv",
-        "columns": [
-            "video_id",
-            "trending_date",
-            "title",
-            "channel_title",
-            "category_id",
-            "publish_time",
-            "tags",
-            "views",
-            "likes",
-            "dislikes",
-            "comment_count",
-            "thumbnail_link",
-            "comments_disabled",
-            "ratings_disabled",
-            "video_error_or_removed",
-            "description"
-        ],
-        "row_count": 40881,
-        "import_instructions": {
-            "function": "pd.read_csv",
-            "arguments": {
-                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/extracted_data/CAvideos.csv"
-            }
-        }
-    },
-    {
-        "file_name": "MX_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/MX_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "FRvideos.csv",
-        "file_type": ".csv",
-        "columns": [
-            "video_id",
-            "trending_date",
-            "title",
-            "channel_title",
-            "category_id",
-            "publish_time",
-            "tags",
-            "views",
-            "likes",
-            "dislikes",
-            "comment_count",
-            "thumbnail_link",
-            "comments_disabled",
-            "ratings_disabled",
-            "video_error_or_removed",
-            "description"
-        ],
-        "row_count": 40724,
-        "import_instructions": {
-            "function": "pd.read_csv",
-            "arguments": {
-                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/extracted_data/FRvideos.csv"
-            }
-        }
-    },
-    {
-        "file_name": "CA_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/CA_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "US_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 32,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/US_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "DE_category_id.json",
-        "file_type": ".json",
-        "columns": [
-            "kind",
-            "etag",
-            "items"
-        ],
-        "row_count": 31,
-        "import_instructions": {
-            "function": "pd.read_json",
-            "arguments": {
-                "path_or_buf": "/Users/franco/Desktop/SmartDataLoader/extracted_data/DE_category_id.json"
-            }
-        }
-    },
-    {
-        "file_name": "USvideos.csv",
-        "file_type": ".csv",
-        "columns": [
-            "video_id",
-            "trending_date",
-            "title",
-            "channel_title",
-            "category_id",
-            "publish_time",
-            "tags",
-            "views",
-            "likes",
-            "dislikes",
-            "comment_count",
-            "thumbnail_link",
-            "comments_disabled",
-            "ratings_disabled",
-            "video_error_or_removed",
-            "description"
-        ],
-        "row_count": 40949,
-        "import_instructions": {
-            "function": "pd.read_csv",
-            "arguments": {
-                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/extracted_data/USvideos.csv"
-            }
-        }
-    },
-    {
-        "file_name": "GBvideos.csv",
-        "file_type": ".csv",
-        "columns": [
-            "video_id",
-            "trending_date",
-            "title",
-            "channel_title",
-            "category_id",
-            "publish_time",
-            "tags",
-            "views",
-            "likes",
-            "dislikes",
-            "comment_count",
-            "thumbnail_link",
-            "comments_disabled",
-            "ratings_disabled",
-            "video_error_or_removed",
-            "description"
-        ],
-        "row_count": 38916,
-        "import_instructions": {
-            "function": "pd.read_csv",
-            "arguments": {
-                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/extracted_data/GBvideos.csv"
+                "filepath_or_buffer": "/Users/franco/Desktop/SmartDataLoader/example_data/clean_data/one_file/WA_Fn-UseC_-Telco-Customer-Churn.csv"
             }
         }
     }
